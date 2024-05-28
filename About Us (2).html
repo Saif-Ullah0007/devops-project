@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #007BFF;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #007BFF;
+            margin-bottom: 20px;
+        }
+        p {
+            line-height: 1.6;
+        }
+        .team {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .team-member {
+            flex: 1 1 calc(33.333% - 40px);
+            background-color: #e9ecef;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+        }
+        .team-member img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+        .team-member h3 {
+            margin-top: 0;
+        }
+        footer {
+            background-color: #007BFF;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: absolute;
+            width: 100%;
+            bottom: 0;
+        }
+        @media (max-width: 768px) {
+            .team-member {
+                flex: 1 1 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>About Us</h1>
+    </header>
+    <div class="container">
+        <h1>Our Story</h1>
+        <p>Welcome to our company! We are passionate about delivering the best services to our customers. Our journey began in [Year] with the vision to make a difference in [industry/field]. Since then, we have grown into a team of dedicated professionals committed to excellence.</p>
+        <p>Our mission is to provide high-quality products and exceptional customer service. We believe in innovation, integrity, and continuous improvement to meet the evolving needs of our clients.</p>
+        <h2>Meet the Team</h2>
+        <div class="team">
+            <div class="team-member">
+                <img src="team1.jpg" alt="Team Member 1">
+                <h3>John Doe</h3>
+                <p>CEO</p>
+            </div>
+            <div class="team-member">
+                <img src="team2.jpg" alt="Team Member 2">
+                <h3>Jane Smith</h3>
+                <p>CTO</p>
+            </div>
+            <div class="team-member">
+                <img src="team3.jpg" alt="Team Member 3">
+                <h3>Emily Johnson</h3>
+                <p>COO</p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        &copy; 2024 Company Name. All rights reserved.
+    </footer>
+</body>
+</html>
